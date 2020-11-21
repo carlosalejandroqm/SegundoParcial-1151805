@@ -6,24 +6,13 @@
 		<class>com.quantum.entities.Tienda</class>
 	
 	<properties>
-		<!-- Configuring JDBC properties -->
-			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost:3306/nomina?serverTimezone=UTC" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="" />
-			<property name="javax.persistence.jdbc.driver"
-				value="com.mysql.jdbc.Driver" />
-      <!-- 
-      <property name="javax.persistence.schema-generation.database.action"
-				value="drop-and-create" />
-       -->
-				
-	<!-- Hibernate properties -->
-			<property name="hibernate.show_sql" value="true" />
-			<property name="hibernate.format_sql" value="true" />
-			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-			<property name="hibernate.hbm2ddl.auto" value="validate" />
-	</properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tienda"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="javax.persistence.schema-generation.database.action" value="none"/>
+			<property name="hibernate.dialect" value=" org.hibernate.dialect.MariaDB53Dialect"/>
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="true"/>
+		</properties>
 	</persistence-unit>
 </persistence>

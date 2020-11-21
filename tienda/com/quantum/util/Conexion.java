@@ -26,7 +26,7 @@ public class Conexion <T> {
 	
 	public static EntityManager getEm(){
 		if ( em == null ) {
-			EntityManagerFactory emf = Persistence.createEntityManagerFactory("nomina");
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("SegundoParcial");
             em = emf.createEntityManager();
         }
 		return em;
