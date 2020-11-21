@@ -17,7 +17,7 @@ import com.quantum.model.TiendaDAO;
 /**
  * Servlet implementation class TiendaServlet
  */
-@WebServlet("/")
+@WebServlet("/TiendaServlet")
 public class TiendaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private TiendaDAO TiendaDAO;

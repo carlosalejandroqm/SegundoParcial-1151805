@@ -57,9 +57,9 @@
 		</div>
 
 
-		<button
-			class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
-			type="submit">Registrar</button>
+		<a href="${pageContext.request.contextPath}/index.jsp" class="btn btn-primary">Registrar Tienda</a>
+		
+		<a href="${pageContext.request.contextPath}/TablaTienda.jsp"  class="btn btn-success">ver lista de tiendas</a>
 
 	</form>
 

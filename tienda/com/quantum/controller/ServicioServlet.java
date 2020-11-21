@@ -17,7 +17,7 @@ import com.quantum.model.*;
 /**
  * Servlet implementation class ServicioServlet
  */
-@WebServlet("/")
+@WebServlet("/ServicioServlet")
 public class ServicioServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private ServicioDAO ServicioDAO;

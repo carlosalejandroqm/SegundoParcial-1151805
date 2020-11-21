@@ -17,7 +17,7 @@ import com.quantum.model.ClienteDAO;
 /**
  * Servlet implementation class clienteServlet
  */
-@WebServlet("/")
+@WebServlet("/ClienteServlet")
 public class ClienteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private ClienteDAO clienteDAO ; 
